@@ -19,14 +19,37 @@ complex syntax.
 
 This project is currently in **Beta 0.02.x**.
 
-## Features
-- English-style syntax
-- Variables and math
-- Conditions (`when`)
-- Loops (`repeat`)
-- Music support (`music(a, b#, c)`)
-- Built-in editor mode
-- Help system
+## EngPL Commands (Beta 0.05)
+
+Core Language
+- var(name)
+- name(value)
+- write(value)
+- math-(expression)
+
+Logic & Flow
+- when(condition) ... end (not here yet)
+- repeat(amount) ... end (not here yet)
+
+Counting System
+- count(name, amount, start?)
+
+Input System
+- key(keyName, code, condition)
+  Conditions: press, hold, release, nonpressed
+
+Visuals
+- image(type, source) (not here yet)
+- gui(preset)
+
+Web & Memory
+- web(link, amount)
+- webmem (automatic memory variable)
+
+Runtime / Engine
+- Interactive EngPL terminal (not here yet)
+- Software renderer / EngPLGE (not here yet)
+- Scene / world commands (not here yet)
 
 ## Example
 ```text
