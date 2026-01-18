@@ -7,7 +7,9 @@ how to install
 2.1 Android: use pydorid to open the file of the ide
 
 2.2 Windows: use powershell, cmd, or plython cmd to launch the ide
+
 3. create a file if on Windows create a dir call engpl in the root of the windows folder and add your file add code it qnd load it with the script 
+
 3.1 if on android make a dir at the root of the main folder of android storage/emulated/0 and add file there
 4. add the code to a .engpl file with any name and load it with the script
 5. enjoy coding
